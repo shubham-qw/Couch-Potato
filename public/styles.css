@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&family=Poppins:wght@200&family=Rowdies:wght@300&family=Rubik:wght@500&display=swap'); 
+
+
+ .brandName {
+    font-family: 'Rowdies', cursive;
+ }
+
+
+ #cara {
+   max-height: 0px;
+ }
