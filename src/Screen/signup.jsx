@@ -54,7 +54,7 @@ export default function Signup() {
                     <input type="text" className="form-control" id="exampleInputLocation" placeholder="location" name="location" value={credentials.location} onChange={onChange} />
                 </div>
                 <button type="submit" onClick={handleSubmit} className="btn btn-primary">Submit</button>
-                <Link to="/login" className=' m-3 btn btn-danger'>Already a user</Link>
+                <Link to="/" className=' m-3 btn btn-danger'>Already a user</Link>
             </form>
         </div>
         </div>

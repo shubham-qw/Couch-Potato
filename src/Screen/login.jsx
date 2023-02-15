@@ -19,7 +19,7 @@ function Login() {
         if (!json.success) {
             alert(json.errors);
         }
-
+        console.log(json);
         if (json.success) {
             localStorage.setItem("authToken", json.authToken);
             localStorage.setItem("userEmail", credentials.email);
